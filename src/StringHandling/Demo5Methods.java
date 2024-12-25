@@ -34,9 +34,19 @@ public class Demo5Methods {
         String substring = str4.substring(0,3);
         System.out.println(substring);
 
+        String str5 = "    Data Analyast    ";
+        str5 = str5.trim();
+        System.out.println(str5);
+        System.out.println(str5.indexOf("a"));
 
+       String str6 = "ababab";
+       System.out.println(str6.indexOf('a'));
+        System.out.println(str6.lastIndexOf('a'));
+
+        System.out.println(str6.startsWith("a"));
+        System.out.println(str6.startsWith("ab"));
+        System.out.println(str6.startsWith("j"));
+        System.out.println(str6.startsWith("n"));
 
     }
 }
-
-// jayraj

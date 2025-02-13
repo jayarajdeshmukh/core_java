@@ -21,7 +21,7 @@ public class Demo5 {
 }
 
                  /*   OR  (but its wrong)
-public class Demo8{
+public class Demo8Notes{
     public static void main(String[] args) {
         switch (2){
             case 1:
